@@ -1,0 +1,29 @@
+<div class="app">
+
+    <!-- Top Section -->
+    <header class="top-header">
+        <h1>Jeopardy</h1>
+        <p class="score">Score <span class="score-count"></span></p>
+    </header>
+
+    <!-- Board Section -->
+    <div class="board">
+        <!-- Categories Section -->
+    </div>
+
+    <!-- Invisible Card Prompt Section -->
+    <div class="card-modal">
+    <div class="card-modal-inner">
+        <h2 class="clue-text"><!-- Clue Injection Section --></h2>
+        <form autocomplete="off">
+            <input name="user-answer" type="text" />
+            <button type="submit">Answer</button>
+        </form>
+        <div class="result">
+            <p class="result_success">CORRECT</p>
+            <P class="result_fail">INCORRECT</P>
+            <P class="result_correct-answer">The correct answer is <span class="result_correct-answer-text"><!-- Answer Injection Section --></span></P>
+        </div>
+    </div>
+    </div>
+</div>
