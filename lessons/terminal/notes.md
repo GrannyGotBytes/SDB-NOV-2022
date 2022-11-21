@@ -1,6 +1,6 @@
 # Terminal Notes
 
-To go to the root file in your directory you will use the following command: 
+To go to the root file in your directory you will use the following command:
 `cd ~`
 
 To see what directory we are currently are in use the following command:
@@ -12,8 +12,8 @@ To get a list of files and folders in the current directory use the following co
 To change to a new directory use the following command:
 `cd [name of folder]`
 
-To create a folder use the following command:
+To create folder use the following command:
 `mkdir [name of folder]`
 
-To make back into previous folder use the following command:
+To move back into previous folder use the following command:
 `cd ..`
